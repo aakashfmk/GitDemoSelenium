@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="6" passed="6">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="79" started-at="2020-05-05T18:55:59 IST" finished-at="2020-05-05T18:55:59 IST">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="79" started-at="2020-05-05T18:55:59 IST" finished-at="2020-05-05T18:55:59 IST">
+      <class name="maven.maventutorial.RestApiTest">
+        <test-method status="PASS" signature="deleteTwitter()[pri:0, instance:maven.maventutorial.RestApiTest@29ca901e]" name="deleteTwitter" duration-ms="0" started-at="2020-05-05T18:55:59 IST" finished-at="2020-05-05T18:55:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteTwitter -->
+        <test-method status="PASS" signature="postJira()[pri:0, instance:maven.maventutorial.RestApiTest@29ca901e]" name="postJira" duration-ms="1" started-at="2020-05-05T18:55:59 IST" finished-at="2020-05-05T18:55:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- postJira -->
+      </class> <!-- maven.maventutorial.RestApiTest -->
+      <class name="maven.maventutorial.SeleniumTest">
+        <test-method status="PASS" signature="browserTest()[pri:0, instance:maven.maventutorial.SeleniumTest@4bec1f0c]" name="browserTest" duration-ms="12" started-at="2020-05-05T18:55:59 IST" finished-at="2020-05-05T18:55:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- browserTest -->
+        <test-method status="PASS" signature="uiTest()[pri:0, instance:maven.maventutorial.SeleniumTest@4bec1f0c]" name="uiTest" duration-ms="1" started-at="2020-05-05T18:55:59 IST" finished-at="2020-05-05T18:55:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- uiTest -->
+      </class> <!-- maven.maventutorial.SeleniumTest -->
+      <class name="maven.maventutorial.AppiumTest">
+        <test-method status="PASS" signature="androidTest()[pri:0, instance:maven.maventutorial.AppiumTest@5649fd9b]" name="androidTest" duration-ms="0" started-at="2020-05-05T18:55:59 IST" finished-at="2020-05-05T18:55:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- androidTest -->
+        <test-method status="PASS" signature="iosTest()[pri:0, instance:maven.maventutorial.AppiumTest@5649fd9b]" name="iosTest" duration-ms="1" started-at="2020-05-05T18:55:59 IST" finished-at="2020-05-05T18:55:59 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- iosTest -->
+      </class> <!-- maven.maventutorial.AppiumTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
